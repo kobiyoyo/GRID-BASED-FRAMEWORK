@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
+//fonts
+$font-family: 'El Messiri',sans-serif;
+$light-font-weight: 300;
+$regular-font-weight: 400;
+$heavy-font-weight: 700;
+$font-height: 1.5;
+
+//colors
+$grey: #333447;
+
+* {
+    font-family: $font-family;
+    color: $grey;
+    line-height: $font-height;
+}
+
+// typography
+h1 {
+    font-size: 2rem;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+
+}
+
+h3 {
+    font-size: 1.17rem;
+
+}
+
+h4 {
+    font-size: 1rem;
+
+}
+
+h5 {
+    font-size: 0.83rem;
+
+}
+
+h6 {
+    font-size: 0.67rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 200;
+
+}
+
+.light-font {
+    font-weight: $light-font-weight;
+}
+
+.regular-font {
+    font-weight: $regular-font-weight;
+}
+
+.heavy-font {
+    font-weight: $heavy-font-weight;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.center-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.justify {
+    text-align: justify;
+}

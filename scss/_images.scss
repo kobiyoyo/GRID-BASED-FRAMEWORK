@@ -1,0 +1,34 @@
+@mixin img-fluid {
+    & {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+$thumbnail-padding: 0.25rem;
+$thumbnail-bg :#fff;
+
+$thumbnail-border-radius:0.25rem;
+
+
+
+.img-fluid {
+    @include img-fluid;
+}
+
+
+// Image thumbnails
+.img-thumbnail {
+    padding: $thumbnail-padding;
+    background-color: $thumbnail-bg;
+
+    @include border-radius($thumbnail-border-radius);
+    // Keep them at most 100% wide
+    @include img-fluid;
+}
