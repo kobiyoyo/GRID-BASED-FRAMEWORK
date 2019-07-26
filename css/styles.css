@@ -1,75 +1,81 @@
- main{
-        padding-top: 40px;
-    }
-    
-    footer{
-  background-color: #00252E;
-  width: 100%;
-  height: auto;
-         padding-top: 46px;
-    padding-bottom: 43px;
-color:white;
-}   footer a,footer h2,footer h3,footer p{
-  
-color:white;
-}
-      @media only screen and (max-width: 767px) {
-    .container {
-      width: 80%; }
-      .nav-bar li a {
-      display: none;
-  }
-      .hamburger{
-        display: block;
-      }
+ main {
+     padding-top: 40px;
+ }
+
+ footer {
+     background-color: #00252E;
+     width: 100%;
+     height: auto;
+     padding-top: 46px;
+     padding-bottom: 43px;
+     color: white;
+ }
+
+ footer a,
+ footer h2,
+ footer h3,
+ footer p {
+
+     color: white;
+ }
+
+ 
+
+ .btn-main {
+
+     background: rgb(81, 176, 255);
+     color: white;
+     border-radius: 5px;
+     border: none;
+
+     border-bottom: .4rem solid rgb(81, 176, 208)
+ }
+
+ input[type=email] {
+     border: none;
+     border-radius: 5px;
+     height: 10px;
+     padding: 10px;
+ }
+
+ .btn-size {
+     background: rgb(81, 176, 255);
+     color: white;
+     border-radius: 5px;
+     height: 30px;
+
+     border: none;
+ }
+
+ .logo {
+     height: 27px;
+ }
+
+ .banner {
+     border-radius: 7px;
+     height: auto;
+     width: auto;
+     color: white;
+     background: linear-gradient(to bottom right, #c09, #f42 85%);
+ }
+
+ .banner h2,
+ .banner p {
+     color: white;
+ }
+@media only screen and (max-width: 767px) {
+
+     .hamburger {
+         display: block;
+     }
 
 
-    }
-  @media only screen and (min-width:768px) and (max-width:1460px) {
-    .container {
-      width: 75%;
-      max-width: 60rem;
-      }
-.hamburger{
-  display: none;
-}
+ }
 
-    }
+ @media only screen and (min-width:768px) and (max-width:1460px) {
 
-    .btn-main{
-  
-    background: rgb(81, 176, 255);
-    color: white;
-    border-radius: 5px;
-    border: none;
+     .hamburger {
+         display: none;
+     }
 
-    border-bottom: .4rem solid rgb(81, 176, 208)
-    }
-
-  input[type=email]{
-  border: none;
-    border-radius: 5px;
-    height: 10px;
-    padding: 10px;
-    }
-    
-    .btn-size{
-            background: rgb(81, 176, 255);
-    color: white;
-    border-radius: 5px;
-    height: 30px;
-   
-    border: none;
-    }
-.logo {
-	    height: 27px;
-}
-.banner{
-        border-radius: 7px;
-    height:auto;width:auto;color:white;background:linear-gradient(to bottom right, #c09, #f42 85%);
-}
-.banner h2,.banner p{
-       color:white;
-}
-
-   
+ }

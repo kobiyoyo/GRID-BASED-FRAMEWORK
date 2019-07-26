@@ -1,9 +1,10 @@
 $width-col:96%;
 $col-total:12;
 $gutter:4%;
-$screen-small:33.75em;
-$screen-med:45em;
-$screen-large:60em;
+$screen-small:540px;
+$screen-med:720px;
+$screen-large:960px;
+$screen-xlarge:1200px;
 @mixin clearfix {
   &::after {
     display: table;
@@ -28,6 +29,47 @@ $screen-large:60em;
     max-width: 60rem;
   }
 }
+//display
+.display-none {
+  display: none !important;
+}
+.display-block {
+  display: block !important;
+}
+
+
+
+@media only screen and (min-width: $screen-small){
+    
+      .display-sm-none {
+    display: none !important;
+  }
+ 
+  .display-sm-block {
+    display: block !important;
+  }
+}
+@media only screen and (min-width: $screen-med){
+      .display-md-none {
+    display: none !important;
+  }
+
+  .display-md-block {
+    display: block !important;
+  }
+}
+@media only screen and (min-width: $screen-large){
+   .display-lg-none {
+    display: none !important;
+  }   
+     .display-lg-block {
+    display: block !important;
+  }
+    
+}
+
+
+
 
 
 .row {

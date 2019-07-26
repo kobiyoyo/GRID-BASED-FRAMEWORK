@@ -1,0 +1,57 @@
+
+//Float 
+.right-float{
+    float:right!important;
+}
+.left-float{
+    float:left!important;
+}
+.none-float{
+   float:none!important;
+}
+
+//Position
+.position-absolute {
+	position: absolute!important;
+}
+.position-sticky {
+	position: sticky!important;
+}
+.position-fixed {
+	position: fixed!important;
+}
+.position-relative {
+	position: relative!important;
+}
+.position-static {
+	position: static!important;
+}
+//visibility
+.visible {
+  visibility: visible !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+//border
+
+.border-0 {
+  border: 0 !important;
+}
+
+.border-top-0 {
+  border-top: 0 !important;
+}
+
+.border-right-0 {
+  border-right: 0 !important;
+}
+
+.border-bottom-0 {
+  border-bottom: 0 !important;
+}
+
+.border-left-0 {
+  border-left: 0 !important;
+}
