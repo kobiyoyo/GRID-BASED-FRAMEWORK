@@ -3,13 +3,33 @@
   width: 90%;
   margin-right: auto;
   margin-left: auto; }
-  @media only screen and (min-width: 33.75em) {
+  @media only screen and (max-width: 767px) {
     .container {
-      width: 80%; } }
-  @media only screen and (min-width: 60em) {
+      width: 80%; }
+      .nav-bar li a {
+      display: none;
+  }
+      .hamburger{
+        display: block;
+      }
+
+
+    }
+  @media only screen and (min-width:768px) and (max-width:1460px) {
     .container {
       width: 75%;
-      max-width: 60rem; } }
+      max-width: 60rem;
+      }
+.hamburger{
+  display: none;
+}
+
+    }
+
+
+
+
+
 
 .row {
   position: relative;
@@ -24,6 +44,116 @@
   display: table;
   clear: both;
   content: ''; }
+
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+nav{
+  height:50px;
+  width:100%;
+  background:linear-gradient(to bottom right, #c09, #f42 85%);
+
+}
+ .nav-bar li{
+  margin:0 auto;
+
+}
+.first-content{
+  margin-top: 50px;
+}
+.part-two{
+  margin-top: 50px;
+}
+
+.nav-link{
+  color: rgb(219, 215, 217);
+
+
+}
+.nav-bar li {
+  text-align: center;
+      font-size: 17px;
+}
+.nav-bar li a:hover{
+  color: grey;
+}
+.hamburger img{
+  height: 30px;
+  width: 30px;
+}
+.btn-main{
+  background-color: #DA1B7A;
+  border-radius: 5px;
+  color: white;
+
+}
+
+
+.free-trial{
+background:rgb(200, 94, 230);
+  padding: 30px;
+  color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+margin-bottom: 170px;
+width: 45%;
+}
+.free-trial a{
+  color:white;
+    font-size: 27px;
+}
+.free-trial a:hover{
+  color: grey;
+}
+.free-trial p{
+  color: white;
+}
+footer{
+  background-color: #00252E;
+  width: 100%;
+  height: auto;
+
+}
+
+.icons img{
+  width: 20px;
+  height: 20px;
+}
+.message{
+  display: flex;
+}
+.message img{
+  width: 50px;
+  height: 50px;
+}
+.footer-title{
+      color: white;
+}
+.icon-text{
+  color: white;
+}
+.footer-links{
+color: white;
+
+
+}
+.footer-links:hover{
+  color:grey;
+}
+.input-sub h3{
+  color: white;
+}
+
+.input-sub p{
+  color: white;
+}
+input[type=email]{
+  border-radius: 5px;
+}
+
+
 
 .col-auto {
   max-width: none;
@@ -194,7 +324,7 @@
 
   .col-12-lg {
     width: 96%; } }
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
