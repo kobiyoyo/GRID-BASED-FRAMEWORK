@@ -454,4 +454,16 @@ p {
 .justify {
   text-align: justify; }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border-radius: 0.25rem; }
+  .img-thumbnail {
+    max-width: 100%;
+    height: auto; }
+
 /*# sourceMappingURL=main_style.css.map */

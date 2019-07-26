@@ -1,4 +1,4 @@
-# BOOTSTRAP
+# CSS FRAMEWORK GUIDE
 
 The main object is to build a custom made framework using sass 
 
@@ -10,8 +10,8 @@ Used:
  * CSS
  * SASS
  
-# CSS FRAMEWORK GUIDE
-Grid
+
+## Grid
 Each column is contained within rows, which are contained within a container. The container is set to a maximum width of 960px, but you can edit without having to break anything.
 
 ## Screenshot
@@ -48,5 +48,4 @@ Additionally, should you choose to style any of the headers or paragraph font-we
 
 * [Adama Chubiyojo Desmond](https://github.com/kobiyoyo)
 
-* [Adama Chubiyojo Desmond](https://github.com/kobiyoyo)
-
+* [Danilo Zagarcanin ](https://github.com/danilozag1992)
