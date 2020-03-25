@@ -3,7 +3,7 @@
 The main object is to build a custom made framework using sass 
 
 
-Used:
+## Technologies
  * CUSTOM FRAMEWORK
  * HTML5
  * JAVASCRIPT
@@ -44,8 +44,39 @@ Simple Grid uses Lato from Google Fonts as a base font-family. Font-size is base
 ###### Header 6
 
 Additionally, should you choose to style any of the headers or paragraph font-weights, simply add the class .light-font, .regular-font, or .heavy-font to your markup. Paragraph text is set by default to a font-weight of 200. Note: the .font-heavy class should not be used as a replacement for semantic bold body copy. 
-## Developer
+## Authors
 
-* [Adama Chubiyojo Desmond](https://github.com/kobiyoyo)
+👤 **Adama Chubiyojo Desmond**
 
-* [Danilo Zagarcanin ](https://github.com/danilozag1992)
+-  [Github](https://github.com/kobiyoyo)
+-  [Twitter](https://twitter.com/_kobiyoyo)
+-  [Linkedin](https://www.linkedin.com/in/chubiyojo-adama/)
+-  [Email](mailto:adamachubi@gmail.com)
+
+👤 **Danilo Zagarcanin**
+
+- [Github](https://github.com/danilozag1992)
+- [Twitter](https://twitter.com/danilo96061514)
+- [Linkedin](https://www.linkedin.com/in/danilo-zagarcanin-88169b185/)
+- [Email](mailto:danilozagarcanin@gmail.com)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+
