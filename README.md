@@ -1,7 +1,6 @@
 # CSS FRAMEWORK GUIDE
 
-The main object is to build a custom made framework using sass 
-
+The main object is to build a custom made framework using sass,that is similar to Bootstrap, with its own 12-column design and classes for text, button, input, table, navbar styling, etc. We then used the framework to create a website.
 
 ## Technologies
  * CUSTOM FRAMEWORK
